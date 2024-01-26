@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "594894684412",
+    "project_id": "fakewhatsapp-3825a",
+    "storage_bucket": "fakewhatsapp-3825a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594894684412:android:3487efe24c3d1cb6795779",
+        "android_client_info": {
+          "package_name": "com.example.mywhatsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAasDr-RNXtIMSpuokHPEBQUV3HNmvIAp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

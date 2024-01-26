@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:minHeight="400dp"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".presentation.OTPFragment">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Input OTP Here"
+    />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:id="@+id/otpBox1"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/otpBox2"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/otpBox3"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/otpBox4"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/otpBox5"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    <EditText
+        android:id="@+id/otpBox6"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:inputType="number"
+        android:maxLength="1"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:imeOptions="actionNext" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</LinearLayout>
